@@ -289,7 +289,7 @@ void draw() {
       textSize(26);
       text("Final Score", width/2, 175);
       textSize(22);
-      text(score, width/2, 240);
+      text(score*10, width/2, 240);
       textSize(12);
       text("Press Q to exit the game", width/2, 350);
       fill(#888B93);
